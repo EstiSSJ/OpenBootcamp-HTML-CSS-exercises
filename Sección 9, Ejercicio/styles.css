@@ -2,6 +2,6 @@
     transition: 0.4s; 
     background-color: rgb(62, 44, 163);
     color: rgb(235, 140, 16); 
-    box-shadow: 10px;
+    box-shadow: 0 5px 10px rgba(45, 206, 255, 0.5);
     translate: 0 -5px;
 }
