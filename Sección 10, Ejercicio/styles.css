@@ -1,0 +1,45 @@
+.sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    flex: 1;
+    height: auto;
+    overflow-y: auto;
+    background-color: aquamarine;
+}
+.sidebar a {
+    display: flex;
+    padding: 20px;
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    margin-left: 200px;
+    flex: 3;
+    background-color: #eee;
+}
+
+@media (max-width: 640px) {
+    .sidebar {
+        display: flex;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        top: auto;
+        flex-direction: row;
+    }
+    .sidebar a {
+        flex: 1;
+    }
+    
+    .main {
+        margin-left: 0;
+    }
+}
